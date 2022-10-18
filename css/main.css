@@ -1319,6 +1319,8 @@ h1 {
     .chap6 {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        gap: 42px;
     }
 
     .endkk {
@@ -1328,4 +1330,71 @@ h1 {
     .end-link {
         flex-direction: column;
     }
+    .body3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+        gap: 0;
+        gap: 48px; 
+    }
+    .body4 {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;  
+        gap: 0;
+        gap: 48px;
+        margin-top: 0;
+        margin-top: 80px;  
+    }
+    .chap4 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .body-text6 {
+        display: flex;
+        align-items: center;
+        max-width: 328px;
+        text-align: center;
+    }
+    .body-text3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .body-text4 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .body5 {
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+        gap: 0;
+        gap: 48px;
+        margin-top: 0;
+        margin-top: 80px;
+    }
+    .body6 {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        gap: 0;
+    }
+    .fform {
+        display: flex;
+        flex-direction: column;
+        max-width: 327px;
+    }
+    .btn {
+        width: 327px;
+        text-align: center;
+    }
+    .head__img {
+        display: flex;
+        align-items: center;
+    }
+    
+    
 }
